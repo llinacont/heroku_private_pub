@@ -3,8 +3,7 @@
 # 
 # Replace YOUR_APP with the heroku app name and YOUR_TOKEN with the
 # same token used in private_pub.yml of your rails project.
-
 production:
-  server: "http://MY_APP.herokuapp.com/faye"
-  secret_token: "MY_KEY"
-  signature_expiration: 86400 # one day
+  server: "http://talenttofame.herokuapp.com/faye"
+  secret_token: "7a9f0fc4a2ca4776026fc84fa4ed391814a5a6293ddf9d9db7b7889be5f32cf2"
+  signature_expiration: 3600 # one hour
